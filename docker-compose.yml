@@ -1,0 +1,6 @@
+version: '2'
+services:
+  jupyter-kernel-gateway:
+    build: .
+    ports:
+      - "8888:8888"
